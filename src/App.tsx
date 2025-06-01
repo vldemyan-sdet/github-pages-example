@@ -6,8 +6,8 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/storage" element={<StorageExample />} />
+        <Route path="/github-pages-example/" element={<Landing />} />
+        <Route path="/github-pages-example/storage" element={<StorageExample />} />
         {/* You can add more routes like below */}
         {/* <Route path="/other" element={<OtherComponent />} /> */}
       </Routes>
@@ -19,7 +19,7 @@ function Landing() {
   return (
     <div className="landing">
       <h1>Welcome to the React Demo App</h1>
-      <Link to="/storage">
+      <Link to="/github-pages-example/storage">
         <button>Open Storage Example</button>
       </Link>
     </div>
