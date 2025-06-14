@@ -1,5 +1,3 @@
-import React from "react";
-
 interface SuccessResponse {
   status: "success";
   country: string;
