@@ -1,6 +1,6 @@
 // https://chatgpt.com/share/68375845-4468-800b-8107-d75e72794131
 import { useState, useEffect } from "react";
-import { setCookie, getCookie } from "./storageUtils";
+import { setCookie, getCookie } from "../utils/storageUtils";
 import "./StorageExample.css";
 
 export default function StorageExample() {
